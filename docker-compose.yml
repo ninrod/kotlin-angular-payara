@@ -12,3 +12,13 @@ services:
       - ./backend/target/ping.war:/opt/payara/deployments/ping.war
     ports:
       - "8080:8080"
+  db:
+    image: postgres:10.5
+    container_name: db
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: example
+    ports:
+      - "5432:5432"
+    networks:
+      - internal-net
