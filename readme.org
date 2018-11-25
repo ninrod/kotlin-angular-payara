@@ -4,6 +4,12 @@
 
 - Minimal sample using angular 7 and javaee 8 with payara full
 
+* Instructions
+
+- go to backend and type =mvn package=
+- then go to root folder and type =make=, wait a few seconds and go check http://localhost:8080/ping
+- to shut down the server, issue =make down=
+
 * LICENSE
 - [[https://www.gnu.org/licenses/gpl-3.0.en.html][GNU General Public License v3]]
 #+BEGIN_SRC text
