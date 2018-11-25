@@ -1,0 +1,5 @@
+target/
+/nb-configuration.xml
+*.sh
+pom.xml.releaseBackup
+release.properties

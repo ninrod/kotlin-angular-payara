@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+-->
+<html>
+    <head>
+        <title>Ping Smoke Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Application server smoke test</h1>
+        <section>
+            <h2>Pings</h2>
+            <article>
+                <a href="./resources/pings/echo/+">Ping!</a>
+            </article>
+            <article>
+                <a href="./resources/pings/system-properties">List system properties</a>
+            </article>
+            <article>
+                <a href="./resources/pings/environment-variables">List environment variables</a>
+            </article>
+            <article>
+                <a href="./resources/pings/jndi/java:">List java: namespace</a>
+            </article>
+            <article>
+                <a href="./resources/pings/jndi/java:comp/env">List java:comp/env namespace</a>
+            </article>
+            <article>
+                <a href="./resources/pings/jndi/java:global">List java:global</a>
+            </article>
+        </section>
+        <section>
+            <h2>Health</h2>
+            <article>
+                Initiate garbage collection with: DELETE <code>/ping/resources/health/garbage</code>
+            </article>
+
+            <article>
+                <a href="./resources/health/start-time">Start (boot) time</a>
+            </article>
+            <article>
+                <a href="./resources/health/current-memory">Current memory stats</a>
+            </article>
+            <article>
+                <a href="./resources/health/os-info">Operating System Info</a>
+            </article>
+        </section>
+    </body>
+</html>

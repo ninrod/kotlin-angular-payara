@@ -1,0 +1,12 @@
+* Angular 7 with payara full JavaEE 8
+
+[[https://www.gnu.org/licenses/gpl-3.0.en.html][https://img.shields.io/badge/license-GPLv3-blue.svg]]
+
+- Minimal sample using angular 7 and javaee 8 with payara full
+
+* LICENSE
+- [[https://www.gnu.org/licenses/gpl-3.0.en.html][GNU General Public License v3]]
+#+BEGIN_SRC text
+GNU General Public License v3
+Copyright (c) 2015-2018 Filipe Silva (ninrod)
+#+END_SRC
