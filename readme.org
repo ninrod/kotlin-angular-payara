@@ -9,7 +9,8 @@
 - go to backend and type =mvn package=
 - then go to root folder and type =make=, wait a few seconds and go check http://localhost:8080/ping
 - to shut down the server, issue =make down=
-
+* References
+  - Adam Bien's Docklands repo, [[https://github.com/AdamBien/docklands/blob/master/payara5/Dockerfile][payara5]] dockerfile.
 * LICENSE
 - [[https://www.gnu.org/licenses/gpl-3.0.en.html][GNU General Public License v3]]
 #+BEGIN_SRC text
