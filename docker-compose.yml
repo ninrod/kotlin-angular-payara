@@ -12,6 +12,9 @@ services:
       - ./backend/target/ping.war:/opt/payara/deployments/ping.war
     ports:
       - "8080:8080"
+      - "4848:4848"
+      - "8009:8009"
+      - "8181:8181"
   db:
     image: postgres:10.5
     container_name: db
