@@ -13,6 +13,7 @@
   - Adam Bien's Docklands repo, [[https://github.com/AdamBien/docklands/blob/master/payara5/Dockerfile][payara5]] dockerfile
   - configuring payara's master [[https://stackoverflow.com/a/47453368/4921402][password]]
   - payara's docker container default username/password: =admin/admin= [[https://github.com/payara/docker-payaraserver-full/issues/67#issuecomment-443543524][link]]
+  - deploying jars to payara outside of war: [[https://github.com/payara/docker-payaraserver-full/issues/69#issuecomment-444519766][link]]
 * LICENSE
 - [[https://www.gnu.org/licenses/gpl-3.0.en.html][GNU General Public License v3]]
 #+BEGIN_SRC text
