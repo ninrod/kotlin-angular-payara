@@ -1,7 +1,7 @@
 FROM payara/server-full:5.183
 
 # set default domain to payaradomain
-ENV PAYARA_DOMAIN payaradomain
+ENV PAYARA_DOMAIN production
 
 # specify a new master password "newpassword" instead of the default password "changeit"
 RUN echo 'AS_ADMIN_MASTERPASSWORD=changeit\nAS_ADMIN_NEWMASTERPASSWORD=newpassword' >> /opt/masterpwdfile
